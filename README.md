@@ -10,7 +10,7 @@
 6. View deployment: `kubectl get deployments`
 7. View pods:  `kubectl get pods`
 8. Create service and expose it: `kubectl expose deployment hello-node --type=LoadBalancer --port=8080`
-9. View services:  `kubectl get services`
+9. View services:  `kubectl get services` (minikube service hello-node --url)
 10. Curl the url shown, for example: `curl http://192.168.49.2:31839` or change to your URL.
 11. Cleanup
 ```bash
